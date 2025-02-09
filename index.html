@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Okafor Ifeanyi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://github.com/user-attachments/assets/1d5b99e7-2144-48d0-be42-90b4bc98e5fa" alt="logo">
+        <h1>IQ Test</h1>
+    </header>
+    <main>
+        <section id="first">
+            <article id="intro"></article>
+                <h2>Welcome to the IQ Test</h2>
+                <cite><i>Test your intelligence with a 1-Minute, 5-question challenge.</i></cite>
+                <p><i>Each Question lasts 12 seconds. Best of Luck</i></p>
+                <button id="start"> Start</button>
+            </article>
+        </section>
+
+        <section id="second">
+            <article>
+                <p id="timer" style="text-align: right;">00:12</p>
+                <p id="progress">Question 1 out of 5</p>
+                <h1 id="question">What is the capital of France?</h1>
+                <div id="options">
+                    <button class="option">Berlin</button>
+                    <button>Madrid</button>
+                    <button>Paris</button>
+                    <button>Rome</button>
+                </div>
+                <div>
+                    <button id="next">Next</button>
+                </div>
+            </article>
+        </section>
+
+       <section id="third">
+            <article >
+                <h2>🎉 Test Completed</h2>
+                <p>You Scored <strong id="score">1</strong> out of <span id="total"></span></p>
+                <p id="remark">Damn you're Hot</p>
+                <button id="restart"> Restart </button>
+            </article>
+       </section>
+    </main>
+    <footer>
+        <p>© 2025 Okafor Ifeanyi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
